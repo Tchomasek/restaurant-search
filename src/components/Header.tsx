@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.lightHeader}>Grab your</Text>
